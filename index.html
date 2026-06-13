@@ -1,281 +1,220 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cabinet de Psychologie — Marie-Hélène Piriou</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabinet Marie-Hélène Piriou — Psychologue à Annecy</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="main-nav">
-        <div class="nav-content">
-            <div class="logo">Marie-Hélène Piriou</div>
-            <div class="nav-links">
-                <a href="#pourquoi" class="nav-link">Le pourquoi</a>
-                <a href="#approche" class="nav-link">Mon approche</a>
-                <a href="#prestations" class="nav-link">Consultations</a>
-                <a href="#contact" class="cta-nav">Me contacter</a>
-            </div>
-        </div>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">Marie-Hélène <span>Piriou</span></div>
+      <div>
+        <a class="nav-link" href="#pourquoi">Pourquoi ?</a>
+        <a class="nav-link" href="#approche">Mon approche</a>
+        <a class="nav-link" href="#prestations">Consultations</a>
+        <a class="nav-link" href="#qui">Qui suis-je ?</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
     </nav>
+  </div>
+</header>
 
-    <header class="hero">
-        <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c1e16d92?auto=format&fit=crop&w=1920&q=80')"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <p class="hero-label">≠ Psychanalyse / coaching </p>
-            <h1 class="hero-title">Reprendre le fil de sa vie,<br>en toute bienveillance</h1>
-            <p class="hero-subtitle">Parce qu'on se sent parfois <span style="font-weight:600;">perdu</span>, <span style="font-weight:600;">épuisé</span>, <span style="font-weight:600;">loin de soi-même</span> — et que parler à quelqu'un de formé peut tout changer</p>
-            <a href="#contact" class="hero-cta">Prendre rendez-vous</a>
-            <p class="hero-location">
-                <span style="color: var(--lune); font-weight:600;">🌙 Cabinet à Annecy</span>
-                <span style="color: var(--blanc); opacity: 0.8;"> — sur rendez-vous</span>
-            </p>
-        </div>
-        <div class="scroll-indicator">
-            <div class="mouse">
-                <div class="wheel"></div>
-            </div>
-        </div>
-    </header>
+<section class="hero">
+  <div class="container hero-inner">
+    <div>
+      <h1>Quand la vie devient un fardeau, <em>il y a une autre voie.</em></h1>
+      <p class="lead">
+        Anxiété paralysante, dépression silencieuse, deuil qui pèse, couple en dérive…
+        La souffrance psychologique n'est pas une punition.
+        C'est un signal que votre conscience envoie — et qu'il est possible d'écouter autrement.
+      </p>
+      <p>
+        Je suis Marie-Hélène Piriou, psychologue à Annecy.
+        J'accompagne les personnes vers un mieux-être durable et une reconnexion avec elles-mêmes.
+      </p>
+      <div class="hero-buttons" style="margin-top:36px;">
+        <a class="btn btn-primary" href="#contact">Prendre rendez-vous</a>
+        <a class="btn btn-outline" href="#approche">Découvrir mon approche</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1499209974431-9dddcece9f88?auto=format&fit=crop&w=800&q=80" alt="Espace apaisant cabinet psychologie">
+      <div class="hero-pill">
+        <strong>+10 ans</strong>
+        d'expérience clinique
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="section-pourquoi reveal" id="pourquoi">
-        <div class="section-image">
-            <img src="https://images.unsplash.com/photo-1474418397713-7ede21d49118?auto=format&fit=crop&w=1200&q=80" alt="Quand la vie devient un fardeau">
-        </div>
-        <div class="section-content">
-            <h2 class="section-title">
-                <span class="icon-tilt">🤲</span> Quand la vie devient un fardeau
-            </h2>
-            <div class="section-body">
-                <p>Vous savez, ces moments où on se réveille en se demandant <strong>"pourquoi ?"</strong> Ces jours où tout semble gris, même quand le soleil brille. Cette fatigue qui ne passe pas, même après avoir dormi.</p>
-                <p>Ce n'est pas une faiblesse. C'est humain.</p>
-                <p>Le travail avec un <strong>psychologue</strong> permet d'entendre ce que le corps et l'esprit tentent de nous dire — et de trouver ensemble une autre voie.</p>
-                <ul>
-                    <li><strong>Parce que souffrir seul n'est pas une vertu</strong></li>
-                    <li><strong>Parce qu'un symptôme est souvent un signal</strong></li>
-                    <li><strong>Parce que la parole peut guérir là où les mots manquent</strong></li>
-                    <li><strong>Parce que reprendre soin de soi, c'est reprendre sa vie</strong></li>
-                </ul>
-                <p style="margin-top:1.5rem;">
-                    <a href="#prestations" class="text-link">Découvrir mes consultations 🌿</a>
-                </p>
-            </div>
-        </div>
-    </section>
+<section id="pourquoi" style="background:#fff;">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag">Vous reconnaissez-vous ?</span>
+      <h2>Les douleurs qu'on vous dit de supporter… n'ont pas à être votre normale.</h2>
+      <p>
+        Combien de consultations médicales se concluent par une ordonnance, sans jamais chercher l'origine de la souffrance ?
+        La psychologie ne fait pas taire le symptôme. Elle traite la source.
+      </p>
+    </div>
+    <div class="problem-cards">
+      <div class="card">
+        <div class="card-icon">🌊</div>
+        <h3>Anxiété & Attaques de panique</h3>
+        <p>Ce nœud dans la poitrine, ce ruminement incessant, cette peur irrationnelle… L'anxiété n'est pas une faiblesse de caractère. C'est souvent le fruit d'un vécu non intégré, d'un stress chronique ou d'un système nerveux en ébullition.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌑</div>
+        <h3>Dépression & Épuisement</h3>
+        <p>Quand le monde perd ses couleurs, quand chaque matin devient un combat. La dépression n'est pas de la paresse. C'est un signal que quelque chose en vous demande à être entendu, comprise, et accompagnée.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💔</div>
+        <h3>Deuil, Séparation & Burn-out</h3>
+        <p>La perte d'un être cher, d'une relation, ou de sens au travail. Ces ruptures de vie laissent des traces profondes. Parler dans un cadre sécurisé permet de traverser l'orage sans s'y noyer.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="section-approche" id="approche">
-        <div class="section-approche-content">
-            <h2 class="section-title reveal">
-                <span class="icon-tilt">🙌</span> Mon approche
-            </h2>
-            <p class="section-subtitle reveal">Un accompagnement basé sur la psychologie clinique, alliant écoute profonde et outils structurés.</p>
-            <div class="approche-grid">
-                <div class="approche-card reveal">
-                    <h3 class="approche-icon">👂</h3>
-                    <h4>L'écoute sans juger</h4>
-                    <p>Un espace bienveillant pour dire ce que vous ressentez sans crainte. Chaque parole est accueillie avec attention et respect.</p>
-                </div>
-                <div class="approche-card reveal">
-                    <h3 class="approche-icon">🔍</h3>
-                    <h4>La compréhension ensemble</h4>
-                    <p>Nous mettons des mots sur ce qui bloke. Comprendre d'où vient la souffrance est souvent le premier pas vers le changement.</p>
-                </div>
-                <div class="approche-card reveal">
-                    <h3 class="approche-icon">🧘</h3>
-                    <h4>Des outils concrets</h4>
-                    <p>Gestion du stress, TCC, méditation guidée, travail émotionnel — des clés à emporter au quotidien, conçues pour perdurer.</p>
-                </div>
-                <div class="approche-card reveal">
-                    <h3 class="approche-icon">✨</h3>
-                    <h4>Le chemin vers soi</h4>
-                    <p>Psychologue reconstruit petit à petit. Chaque séance rapproche de soi-même, de l'autonomie et du bien-être.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="approach" id="approche">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag" style="background:rgba(255,255,255,0.12);color:#F5F0EB;">Mon approche</span>
+      <h2>Quatre piliers pour réapprendre à vivre avec soi-même</h2>
+      <p>Je ne crois pas aux solutions miracles. Je crois aux séances régulières, à l'alliance thérapeutique, et aux petits pas qui, accumulés, redessinent un équilibre psychique.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Écoute du vécu</h3>
+        <p>Anamnèse approfondie, antécédents, symptômes, mode de vie. On cartographie le vécu émotionnel avant de poser un diagnostic et un plan de travail.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Compréhension des mécanismes</h3>
+        <p>Analyse des schémas répétitifs, des croyances limitantes, des blessures de l'enfance. Comprendre d'où vient la souffrance est le premier pas pour la transformer.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Outils concrets & TCC</h3>
+        <p>Thérapies cognitivo-comportementales, gestion du stress, techniques de régulation émotionnelle. Des clés pratiques à emporter dans votre quotidien.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Reconstruction & autonomie</h3>
+        <p>Le but n'est pas de dépendre indéfiniment de la thérapie. C'est de retrouver confiance en soi, recul face aux épreuves, et libération émotionnelle.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="section-prestations" id="prestations">
-        <div class="section-prestations-content">
-            <div class="prestations-intro">
-                <h2 class="section-title reveal">
-                    <span class="icon-tilt">💛</span> Consultations
-                </h2>
-                <p class="section-subtitle reveal" style="font-style: italic;">Chaque personne est unique. Je m'adapte à votre histoire et à votre rythme.</p>
-            </div>
-            <div class="prestations-grid">
-                <div class="prestation reveal">
-                    <div class="prestation-image">
-                        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80" alt="Consultation individuelle">
-                        <span class="prestation-tag">Parler</span>
-                    </div>
-                    <div class="prestation-content">
-                        <h4>Consultation individuelle</h4>
-                        <p class="prestation-desc">Un espace sécurisé pour parler de votre anxiété, dépression, deuil, burn-out ou questionnements existentiels. Ensemble, nous trouvons du sens et des solutions.</p>
-                        <p class="prestation-meta">60 min</p>
-                        <a href="#prestations" class="prestation-cta">En savoir plus 🌿</a>
-                    </div>
-                </div>
-                <div class="prestation reveal">
-                    <div class="prestation-image">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80" alt="Thérapie de couple">
-                        <span class="prestation-tag tag-terre">Aller ensemble</span>
-                    </div>
-                    <div class="prestation-content">
-                        <h4>Thérapie de couple</h4>
-                        <p class="prestation-desc">Quand la communication s'épuise et que l'amour vacille, un tiers bienveillant peut aider à réentendre l'autre et se réentendre.</p>
-                        <p class="prestation-meta">75 min</p>
-                        <a href="#prestations" class="prestation-cta">En savoir plus 🌱</a>
-                    </div>
-                </div>
-                <div class="prestation reveal">
-                    <div class="prestation-image">
-                        <img src="https://images.unsplash.com/photo-1499209974431-9dddcece9f88?auto=format&fit=crop&w=1200&q=80" alt="Soutien psychologique">
-                        <span class="prestation-tag tag-lune">Accompagner</span>
-                    </div>
-                    <div class="prestation-content">
-                        <h4>Soutien psychologique</h4>
-                        <p class="prestation-desc">Soins psychologiques réguliers pour traverser une période difficile : séparation, maladie, deuil, transition professionnelle.</p>
-                        <p class="prestation-meta">60 min</p>
-                        <a href="#prestations" class="prestation-cta">En savoir plus 🌙</a>
-                    </div>
-                </div>
-                <div class="prestation reveal">
-                    <div class="prestation-image">
-                        <img src="https://images.unsplash.com/photo-1551836022-deb4988cc5c0?auto=format&fit=crop&w=1200&q=80" alt="Consultation en visio">
-                        <span class="prestation-tag">Être présent·e</span>
-                    </div>
-                    <div class="prestation-content">
-                        <h4>Consultation en visio</h4>
-                        <p class="prestation-desc">Depuis votre domicile, quand le déplacement est difficile. Une bulle confidentielle, comme au cabinet, par écran interposé.</p>
-                        <p class="prestation-meta">60 min</p>
-                        <a href="#prestations" class="prestation-cta">En savoir plus 💛</a>
-                    </div>
-                </div>
-            </div>
+<section id="prestations" style="background:var(--cream);">
+  <div class="container">
+    <div class="section-header">
+      <span class="tag">Consultations</span>
+      <h2>Accompagnement sur mesure, en cabinet ou à distance</h2>
+    </div>
+    <div class="spec-grid">
+      <div class="spec-item">
+        <div class="icon">🧠</div>
+        <div>
+          <h3>Consultation individuelle</h3>
+          <p>Séance de 60 minutes pour faire le tour de votre situation actuelle : anxiété, dépression, deuil, estime de soi. On établit ensemble un plan d'accompagnement personnalisé.</p>
         </div>
-        <div class="section-prestations-bg"></div>
-    </section>
+      </div>
+      <div class="spec-item">
+        <div class="icon">💑</div>
+        <div>
+          <h3>Thérapie de couple</h3>
+          <p>Quand la communication se grippe et que l'amour vacille, un tiers bienveillant aide à réentendre l'autre. Séances de 75 min pour débloquer les conflits et retrouver du lien.</p>
+        </div>
+      </div>
+      <div class="spec-item">
+        <div class="icon">💻</div>
+        <div>
+          <h3>Suivi psychologique en visio</h3>
+          <p>Pas à Annecy ? Pas de souci. Les séances se déroulent en visioconférence avec la même qualité d'écoute. Flexible, confidentiel, depuis votre domicile.</p>
+        </div>
+      </div>
+      <div class="spec-item">
+        <div class="icon">🤝</div>
+        <div>
+          <h3>Soutien psychologique régulier</h3>
+          <p>Accompagnement de fond sur plusieurs mois : séparation, maladie, transition professionnelle. Une présence stable pour traverser les tempêtes sans sombrer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="section-wellness" id="bienfaits">
-        <div class="wellness-image-wrapper reveal">
-            <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=1200&q=80" alt="Les bienfaits de consulter">
-        </div>
-        <div class="wellness-content-wrapper">
-            <h2 class="section-title reveal">
-                <span class="icon-tilt">🧠</span> Ces motifs pour lesquels on consulte
-            </h2>
-            <div class="wellness-items reveal">
-                <div class="wellness-item">
-                    <div class="wellness-icon">🌿</div>
-                    <div class="wellness-title">Surmonter l'anxiété</div>
-                    <div class="wellness-desc">Paniques, anxiété généralisée, phobies — retrouver son calme intérieur.</div>
-                </div>
-                <div class="wellness-item">
-                    <div class="wellness-icon">🛁</div>
-                    <div class="wellness-title">Apaiser la dépression</div>
-                    <div class="wellness-desc">Quand le poids devient trop lourd, la parole soulage et la méthode reconstruit.</div>
-                </div>
-                <div class="wellness-item">
-                    <div class="wellness-icon">🌊</div>
-                    <div class="wellness-title">Traverser le deuil</div>
-                    <div class="wellness-desc">Accompagner la douleur de la perte sans la minimiser, dans la bienveillance.</div>
-                </div>
-                <div class="wellness-item">
-                    <div class="wellness-icon">🔥</div>
-                    <div class="wellness-title">Sortir du burn-out</div>
-                    <div class="wellness-desc">Comprendre, poser des limites, retrouver de l'énergie et du sens au travail.</div>
-                </div>
-                <div class="wellness-item">
-                    <div class="wellness-icon">💪</div>
-                    <div class="wellness-title">Mieux se comprendre</div>
-                    <div class="wellness-desc">Besoin de clarifier ses émotions, ses patterns, ses choix de vie.</div>
-                </div>
-                <div class="wellness-item">
-                    <div class="wellness-icon">😴</div>
-                    <div class="wellness-title">Retrouver le sommeil</div>
-                    <div class="wellness-desc">Insomnies, cauchemars — la psychologie aide à retrouver un repos réparateur.</div>
-                </div>
-                <div class="wellness-item">
-                    <div class="wellness-icon">🎨</div>
-                    <div class="wellness-title">Thérapie de couple</div>
-                    <div class="wellness-desc">Résoudre les conflits, réactiver la communication, redonner envie d'avancer à deux.</div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="about" id="qui" style="background:#fff;">
+  <div class="container about-inner">
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" alt="Espace d'écoute bienveillance">
+    </div>
+    <div>
+      <span class="tag">Votre psychologue</span>
+      <h2>Marie-Hélène Piriou</h2>
+      <p>
+        Psychologue diplômée, spécialisée dans l'accompagnement des personnes en souffrance psychique.
+        J'ai choisi ce métier après des années à constater que trop de gens traversaient leurs épreuves
+        seuls, sans espace pour parler.
+      </p>
+      <p>
+        Ma vision est simple : chaque symptôme est un signal.
+        Une fois qu'on apprend à lire ses émotions, on cesse de lutter contre soi.
+        On s'allie avec soi.
+      </p>
+      <p style="margin-top:24px;">
+        📍 Cabinet à <strong>27 Rue de Narvik, 74000 Annecy</strong><br>
+        📱 06 15 05 88 12
+      </p>
+    </div>
+  </div>
+</section>
 
-    <section class="section-qui-suis-je" id="qui-suis-je">
-        <div class="qui-suis-je-bg-pattern"></div>
-        <div class="qui-suis-je-content">
-            <div class="qui-suis-je-text reveal">
-                <h2 class="section-title">
-                    <span class="icon-tilt">💡</span> Qui suis-je ?
-                </h2>
-                <p>Je m'appelle <strong>Marie-Hélène Piriou</strong>, psychologue à Annecy. Mon cabinet est un lieu de parole, d'écoute et de reconstruction.</p>
-                <p>Mon travail repose sur les sciences de la psychologie : <strong>la psychothérapie, les TCC, la psychologie clinique et l'écoute humaniste</strong>.</p>
-                <p>Chaque personne qui franchit la porte de mon cabinet a une histoire, parfois douloureuse, toujours précieuse. Mon engagement est de l'<strong>accueillir sans juger</strong> et de l'<strong>accompagner vers une vie plus légère</strong>.</p>
-                <p>Au quotidien, cela se traduit par : des consultations individuelles et de couple, des séances en visio, et un accompagnement sur-mesure pensé sur la durée.</p>
-                <p>Mon approche est <strong>bienveillante, structurée et orientée résultats</strong>. Je suis là pour vous aider, pas pour vous garder indéfiniment.</p>
-                <p><a href="#contact" class="text-link">Prendre rendez-vous 🌙</a></p>
-            </div>
-            <div class="qui-suis-je-image reveal">
-                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80" alt="Marie-Hélène Piriou — Psychologue à Annecy">
-                <p class="photo-caption">Marie-Hélène Piriou — Psychologue à Annecy © 2025</p>
-            </div>
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-box">
+      <span class="tag">Premier pas</span>
+      <h2>Commençons par un échange</h2>
+      <p>
+        Que vous soyez en quête de soulagement, de compréhension ou simplement curieux de l'approche psychologique,
+        ce premier contact est gratuit et sans engagement.
+      </p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <strong>Téléphone</strong>
+          <span>06 15 05 88 12</span>
         </div>
-    </section>
+        <div class="contact-item">
+          <strong>Email</strong>
+          <span>mhp6@hotmail.fr</span>
+        </div>
+        <div class="contact-item">
+          <strong>Adresse</strong>
+          <span>27 Rue de Narvik, 74000 Annecy</span>
+        </div>
+      </div>
+      <a class="btn btn-primary" href="mailto:mhp6@hotmail.fr?subject=Premier%20contact%20-%20consultation%20psychologue">Envoyer un email</a>
+    </div>
+  </div>
+</section>
 
-    <section class="section-contact" id="contact">
-        <div class="section-contact-content">
-            <h2 class="section-title reveal">
-                <span class="icon-tilt">📩</span> Me contacter
-            </h2>
-            <div class="contact-grid">
-                <div class="contact-info reveal">
-                    <h3>Marie-Hélène Piriou</h3>
-                    <p style="font-style:italic; color: var(--saules); margin: 0.5rem 0 1.2rem;">Psychologue à Annecy</p>
-                    <div class="contact-item">
-                        <span>📍</span>
-                        <span><strong>27 Rue de Narvik</strong><br>74000 Annecy</span>
-                    </div>
-                    <div class="contact-item">
-                        <span>📞</span>
-                        <a href="tel:0615058812" class="contact-phone">06 15 05 88 12</a>
-                    </div>
-                    <p class="contact-heures" style="font-style:italic; color: var(--saules); font-size:0.9em;">Sur rendez-vous</p>
-                    <p style="margin-top: 2rem; font-size: 0.85em; color: var(--saules);">
-                        <span style="color: var(--terre);">⚠</span> Pas de consultations d'urgence — appelez le <strong>15</strong> en cas de crise.
-                    </p>
-                    <div class="social-links" style="margin-top: 1.5rem;">
-                        <a href="https://www.facebook.com/Marie-H%C3%A9l%C3%A8ne-Piriou-1272960412904436/" target="_blank">Facebook ↗</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<footer>
+  <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+    <div>Marie-Hélène Piriou — Psychologue à Annecy. Tous droits réservés.</div>
+    <div><a href="#">Mentions légales</a></div>
+  </div>
+</footer>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-brand">
-                <span style="font-family: 'Dancing Script', cursive; font-size: 1.8em; color: var(--saules);">Marie-Hélène Piriou</span>
-                <p>Psychologue à Annecy — Cabinet au 27 Rue de Narvik</p>
-            </div>
-            <div class="footer-links">
-                <a href="#pourquoi">Le pourquoi</a>
-                <a href="#approche">Mon approche</a>
-                <a href="#prestations">Consultations</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-        <div style="text-align:center; padding: 2rem; background: var(--saules); color: var(--crème-lumière); font-size: 0.85em;">
-            <span style="font-family: 'Dancing Script', cursive; font-size: 1.5em;">Marie-Hélène Piriou</span> ❤️ Annecy
-            <p style="margin-top: 0.8rem; font-family: 'Inter', sans-serif;">© 2025 — Psychologue à Annecy. Sur rendez-vous.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
