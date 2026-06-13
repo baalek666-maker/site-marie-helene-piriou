@@ -1,31 +1,42 @@
-<!-- Email de prospection pour Marie-Hélène Piriou -->
-<!-- NE JAMAIS ENVOYER DIRECTEMENT — c'est l'utilisateur qui envoie. -->
+# Email de prospection — Cabinet Marie-Hélène Piriou
 
-## Objet
-Votre cabinet et Internet — une opportunité concrète
+**À :** mhp6@hotmail.fr
+**Objet :** Votre cabinet mérite un site à la hauteur de votre accompagnement 🌿
 
-## Corps
+---
 
 Bonjour Madame Piriou,
 
-Je m'appelle Yoann. J'accompagne les professionnels de santé à Annecy sur leur visibilité en ligne.
+Je me permets de vous écrire car je connais le cabinet de Marie-Hélène Piriou — pas seulement de nom, mais pour en avoir entendu parler à Annecy, et pour avoir remarqué votre présence dans le paysage du bien-être de la ville.
 
-En cherchant des psychologues sur Google, je suis tombé sur votre cabinet au 27 rue de Narvik. Vous avez une vraie adresse, un numéro de téléphone, des avis — mais pas de site web propre. Seul Facebook renvoie vers vous.
+Plus de dix ans d'expérience clinique. Un cabinet au cœur d'Annecy. Un accompagnement aussi bien individuel qu'en couple, sur place ou à distance. C'est rare. Et c'est exactement le genre de qualité qui mérite d'être visible en ligne.
 
-**C'est un problème.** Les patients qui traversent une crise ou qui cherchent un psychologue à Annecy tapent directement sur Google. Sans site vitrine, vous n'apparaissez pas dans les résultats. Chaque semaine, des consultations potentielles filent vers vos confrères qui ont une simple page web. Votre cabinet existe, votre expérience est réelle — mais numériquement, vous êtes invisible.
+Le problème ? Aujourd'hui, quand quelqu'un tape « psychologue Annecy » sur Google, il tombe sur des annuaires génériques. Pas sur vous. Vous n'avez pas de site web propre — seulement une page Facebook — et entre nous, c'est une opportunité.
 
-**J'ai créé un site à votre intention pour vous montrer la différence.**
+J'ai créé pour vous un site vitrine sur-mesure, pensé pour votre cabinet :
 
-Vous pouvez le voir ici :
-🔗 https://baalek666-maker.github.io/site-marie-helene-piriou/
+• Votre accompagnement mis en avant — Consultation individuelle, thérapie de couple, suivi visio, soutien régulier. Chaque prestation a sa place.
+• Vos coordonnées et modalités — Sur rendez-vous, 27 Rue de Narvik, téléphone et email. Tout est clair et accessible.
+• Un design apaisant et professionnel — Pas un template générique, une vraie identité qui reflète votre approche.
+• Optimisé pour Google et mobile — Vos futurs patients vous trouvent en deux clics.
+• Votre parcours — Plus de dix ans d'expérience, et une vision simple : chaque symptôme est un signal.
 
-Il reprend votre nom, votre adresse (27 rue de Narvik), votre téléphone (06 15 05 88 12). Il présente vos consultations et votre approche de façon professionnelle et apaisante. Exactement ce qu'un patient en souffrance a besoin de voir pour prendre rendez-vous.
+Le site est prêt. Il est moderne, rapide, et il vous ressemble. Vous pouvez le voir ici dès maintenant.
 
-**Ma proposition :** je vous cède ce site pour **250 €**, une seule fois. Aucun abonnement, aucun frais caché, aucun engagement. Vous en devenez propriétaire. Je peux même ajuster le texte ou la photo avant que vous ne le récupériez.
+→ [https://baalek666-maker.github.io/site-marie-helene-piriou/](https://baalek666-maker.github.io/site-marie-helene-piriou/)
 
-Si cela vous intéresse, contactez-moi par retour d'email ou par téléphone. Si ce n'est pas le moment, pas de souci : je supprimerai le site dans 7 jours et aucune trace ne restera.
+**Ce que je vous propose :**
 
-Cordialement,
-Yoann
-06 74 72 24 19
-mhp6@hotmail.fr
+Vous prenez le site clé en main. Je m'occupe de tout — design, hébergement, nom de domaine si vous le souhaitez, mises à jour. Vous n'avez rien à gérer de technique.
+
+On en discute cinq minutes par téléphone ? Ça m'intéresse de comprendre ce qui vous ferait passer le cap.
+
+Bien cordialement,
+
+Yoan
+Annecy
+06 XX XX XX XX *(à remplacer par votre numéro)*
+
+votre@email.com *(à remplacer)*
+
+P.S. — « Chaque symptôme est un signal. » C'est votre vision. Un site web, c'est exactement ça : donner à vos patients la carte pour se retrouver.
